@@ -1,0 +1,141 @@
+/* index */
+.cart {
+    width: 250px;
+    height: 340px;
+    margin: 30px;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    padding-left: 230px;
+    padding-bottom: 40px;
+}
+.cart .name {
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.cart .cost {
+    font-size: 1rem;
+}
+.cart .add-to-cart {
+    font-size: 1rem;
+    background: rgb(220, 220, 220);
+    color: rgb(11, 11, 11);
+    padding: 5px 10px;
+    border:#30383e;
+    border-radius: 10px;
+    border-width: 5px;
+    font-family: inherit;
+}
+.cart .add-to-cart:hover {
+    background: #8b9567;
+}
+.cart .add-to-cart:active {
+    background: rgb(84, 70, 88);
+}
+.cart .scale{
+    display: inline-block; /* Строчно-блочный элемент */
+    overflow: hidden; /* Скрываем всё за контуром */
+}
+.cart .scale img{
+    transition: 1s; /* Время эффекта */
+    display: block; /* Убираем небольшой отступ снизу */
+}
+.cart .scale img:hover{
+    transform: scale(1.2); /* Увеличиваем масштаб */
+}
+.goods-out {
+    float:left;
+    text-align: left;
+    border: none;
+}
+.goods-out::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.menu-main {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style-type: none;
+  background-color: #30383e;
+}
+  .menu-main li { display: inline; }
+  .menu-main a {
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+} 
+.greeting{
+    text-align: center;
+}
+  /* .menu-main .menu-img{
+    position: absolute;
+  }  */
+  /* footer */
+.ftr{
+    width: 100%;
+    float: left;
+    padding: 10px;
+    background-color: #e8e8e8;
+    border-top: 2px solid silver;
+    margin-top: 10px;
+    padding-bottom: 90px;
+ 
+    top: 85%;
+}
+.social a{
+    float: left;
+}
+.social p{
+    float: left;
+    margin-right: 20px;
+    margin-top: 5px;
+} 
+.social img{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+}
+.rights p{
+    float: right;
+    width: 50%;
+    text-align: right;
+    font-size: 1em;
+    margin-left: 120px;
+}
+  /* about */
+.description{
+    float: center;
+    text-align: left;
+    padding-left: 300px;
+}
+.description h1{
+    padding-left: 400px;
+}
+.description img{
+    padding-left: 70px;
+}
+body{
+    margin: 0;
+}
+  /* later */
+  .later-text{
+    text-align: center;
+  }
+  /* cart */
+  .main-cart{
+      margin-left: 30%;
+      margin-top: 20px;
+      text-transform: uppercase;
+  }
+  .email-feild form{
+    margin-left: 30%;
+    margin-top: 20px;
+    background-color: rgb(227, 227, 227);
+    text-align: center;
+  }

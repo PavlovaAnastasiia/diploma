@@ -1,0 +1,30 @@
+{
+    "0001":{
+        "name": "Basik-parisian",
+        "cost": 1499,
+        "description": "Плюшевый кот в различных костюмах на ваш вкус",
+        "order": 1,
+        "image": "images/basik1.jpg"
+    },
+    "0002":{
+        "name": "Basik-tiger",
+        "cost": 1499,
+        "description": "Плюшевый кот в различных костюмах на ваш вкус",
+        "order": 2,
+        "image": "images/basik21.jpg"
+    },
+    "0003":{
+        "name": "Rabbit",
+        "cost": 1799,
+        "description": "Милый серый кролик, который украсит интерьер или станет хорошим подарком для вас и ваших близких",
+        "order": 3,
+        "image": "images/rabbit1.jpg"
+    },
+    "0004":{
+        "name": "Hello Kitty",
+        "cost": 1599,
+        "description": "Знаменитый японский персонаж Хеллоу Китти в плюшевом виде",
+        "order": 4,
+        "image": "images/helloKitty1.jpg"
+    }
+}
